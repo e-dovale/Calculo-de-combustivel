@@ -8,7 +8,6 @@ if ($_POST) {
 
         if ($distancia > 0 && $autonomia > 0) {
 
-
             $valorGasolina = 4.80;
             $valorAlcool = 3.80;
             $valorDiesel = 3.90;
