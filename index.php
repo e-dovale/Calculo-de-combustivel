@@ -1,10 +1,13 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+
+<html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Cálculo do combustível</title>
+     
+    <link rel="stylesheet" type="text/css" href="css/sheet.css">
 </head>
 
 <body>
@@ -31,8 +34,8 @@
                     <input type="number" class="campoTexto" name="distancia" required />
 
                     <label for="autonomia">Consumo de combustível do veículo (Km/l)</label>
-                    <input type="number" class="campo Texto" name="autonomia" required />
-                    <input type="submit">
+                    <input type="number" class="campoTexto" name="autonomia" required />
+                    <button class="botao" type="submit">Calcular</button>
                 </form>
             </div>
         </div>
@@ -40,4 +43,5 @@
     </main>
 
 </body>
+
 </html>
